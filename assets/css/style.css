@@ -711,6 +711,25 @@ body {
 .blog-card .card-text { margin-block: 15px; }
 
 
+/*-----------------------------------*\
+  #BLOG
+\*-----------------------------------*/
+
+.blog-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 150px; /* 调整间距 */
+}
+
+.blog-card {
+  flex: 1 1 calc(33.333% - 30px); /* 三个视频在一行显示，并包含间距 */
+  box-sizing: border-box;
+}
+
+.card-banner {
+  width: 100%;
+  height: auto;
+}
 
 
 
