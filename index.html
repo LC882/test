@@ -41,13 +41,13 @@
     <div class="container">
 
       <h1>
-        <a href="#" class="logo">HQ Logistics</a>
+        <a href="#" class="logo" data-translate="logo">HQ Logistics</a>
       </h1>
 
       <nav class="navbar" data-navbar>
 
         <div class="navbar-top">
-          <a href="#" class="logo">HQ Logistics</a>
+          <a href="#" class="logo" data-translate="logo">HQ Logistics</a>
 
           <button class="nav-close-btn" aria-label="Clsoe menu" data-nav-toggler>
             <ion-icon name="close-outline"></ion-icon>
@@ -57,7 +57,7 @@
         <ul class="navbar-list">
 
           <li class="navbar-item">
-            <a href="#home" class="navbar-link" data-nav-link>
+            <a href="#home" class="navbar-link" data-nav-link data-translate="home">
               <span>主页</span>
 
               <ion-icon name="chevron-forward"></ion-icon>
@@ -65,7 +65,7 @@
           </li>
 
           <li class="navbar-item">
-            <a href="#about" class="navbar-link" data-nav-link>
+            <a href="#about" class="navbar-link" data-nav-link data-translate="about">
               <span>关于</span>
 
               <ion-icon name="chevron-forward"></ion-icon>
@@ -73,7 +73,7 @@
           </li>
 
           <li class="navbar-item">
-            <a href="#service" class="navbar-link" data-nav-link>
+            <a href="#service" class="navbar-link" data-nav-link data-translate="services">
               <span>服务</span>
 
               <ion-icon name="chevron-forward"></ion-icon>
@@ -81,7 +81,7 @@
           </li>
 
           <li class="navbar-item">
-            <a href="#blog" class="navbar-link" data-nav-link>
+            <a href="#blog" class="navbar-link" data-nav-link data-translate="blog">
               <span>动态</span>
 
               <ion-icon name="chevron-forward"></ion-icon>
@@ -89,11 +89,17 @@
           </li>
 
           <li class="navbar-item">
-            <a href="#contact" class="navbar-link" data-nav-link>
+            <a href="#contact" class="navbar-link" data-nav-link data-translate="contact">
               <span>联系</span>
 
               <ion-icon name="chevron-forward"></ion-icon>
             </a>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link language-toggle" data-language-toggle>
+              <span>俄文</span>
+            </button>
           </li>
 
         </ul>
@@ -101,11 +107,9 @@
       </nav>
 
       <div class="header-contact">
-
-        <div>
-          <p class="contact-label">Free Call In C.N</p>
-
+        <div class="contact-numbers">
           <a href="tel:+86 15263160627" class="contact-number">+86 15263160627</a>
+          <a href="tel:+86 15930789222" class="contact-number">+86 15930789222</a>
         </div>
 
         <div class="contact-icon">
@@ -141,11 +145,11 @@
           <div class="hero-content">
 
             <h2 class="h1 hero-title">
-              <span class="span">To Russia</span> Direction
+              <span class="span" data-translate="toRussia">宏强</span> 国际物流
             </h2>
 
-            <p class="hero-text">
-              A partner you can trust with international logistics
+            <p class="hero-text" data-translate="partnerText">
+              值得您信赖的国际物流合作伙伴
             </p>
 
             <a href="https://wa.me/+8615263160627" class="btn-outline" target="_blank" rel="noopener noreferrer">获得最好的报价</a>
@@ -181,13 +185,12 @@
 
           <div class="about-content">
 
-            <p class="section-subtitle">关于公司</p>
+            <p class="section-subtitle" data-translate="aboutCompany">关于公司</p>
 
-            <h2 class="h2 section-title">HQ 国际物流</h2>
+            <h2 class="h2 section-title" data-translate="hqLogistics">HQ 国际物流</h2>
 
-            <p class="section-text">
+            <p class="section-text" data-translate="logisticsDescription">
               我们提供全面的物流服务，确保货物从中国高效安全地运输到俄罗斯所有城市.
-              
             </p>
 
             <ul class="about-list">
@@ -197,7 +200,7 @@
                   <ion-icon name="chevron-forward"></ion-icon>
                 </div>
 
-                <p class="about-text">
+                <p class="about-text" data-translate="avoidPaperwork">
                   客户避免所有文书工作和海关手续，货物到达俄罗斯联邦后再付款.
                 </p>
               </li>
@@ -207,7 +210,7 @@
                   <ion-icon name="chevron-forward"></ion-icon>
                 </div>
 
-                <p class="about-text">
+                <p class="about-text" data-translate="assistClients">
                   我们协助客户与工厂达成协议，确保每笔交易高效顺利完成.
                 </p>
               </li>
@@ -217,7 +220,7 @@
                   <ion-icon name="chevron-forward"></ion-icon>
                 </div>
 
-                <p class="about-text">
+                <p class="about-text" data-translate="controlProcess">
                   全程把控从采购到交付的每个环节，确保执行无误.
                 </p>
               </li>
@@ -227,7 +230,7 @@
                   <ion-icon name="chevron-forward"></ion-icon>
                 </div>
 
-                <p class="about-text">
+                <p class="about-text" data-translate="languageBarrier">
                   客户经理精通俄语，消除语言障碍，确保沟通准确无误.
                 </p>
               </li>
@@ -237,7 +240,7 @@
                   <ion-icon name="chevron-forward"></ion-icon>
                 </div>
 
-                <p class="about-text">
+                <p class="about-text" data-translate="focusOnQuality">
                   我们始终专注于货物安全和服务质量，提供可靠的解决方案.
                 </p>
               </li>
@@ -247,14 +250,14 @@
                   <ion-icon name="chevron-forward"></ion-icon>
                 </div>
 
-                <p class="about-text">
+                <p class="about-text" data-translate="vision">
                   我们的愿景是使全球物流变得更加高效和创新.
                 </p>
               </li>
 
             </ul>
 
-            <a href="#service" class="btn">查看服务</a>
+            <a href="#service" class="btn" data-translate="viewServices">查看服务</a>
 
           </div>
 
@@ -272,11 +275,11 @@
       <section class="section service" id="service" aria-label="service">
         <div class="container">
 
-          <p class="section-subtitle">主要方向</p>
+          <p class="section-subtitle" data-translate="mainDirections">主要方向</p>
 
-          <h2 class="h2 section-title">服务目录</h2>
+          <h2 class="h2 section-title" data-translate="serviceCatalog">服务目录</h2>
 
-          <p class="section-text">
+          <p class="section-text" data-translate="serviceDescription">
             
           </p>
 
@@ -290,17 +293,17 @@
                 </div>
 
                 <h3 class="h3 card-title">
-                  <span class="span">1</span> 订购物流
+                  <span class="span">1</span> <span data-translate="orderLogistics">订购物流</span>
                 </h3>
 
-                <p class="card-text">
+                <p class="card-text" data-translate="russiaKazakhstan">
                   俄罗斯&哈萨克斯坦
                 </p>
 
                 <a href="https://wa.me/+8615263160627" class="btn-link" target="_blank" rel="noopener noreferrer">
                   <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
                   <ion-icon name="chevron-forward"></ion-icon>
-                  <span class="span">了解更多</span>
+                  <span class="span" data-translate="learnMore">了解更多</span>
                 </a>
 
               </div>
@@ -314,17 +317,17 @@
                 </div>
 
                 <h3 class="h3 card-title">
-                  <span class="span">2</span> 货物跟踪
+                  <span class="span">2</span> <span data-translate="cargoTracking">货物跟踪</span>
                 </h3>
 
-                <p class="card-text">
+                <p class="card-text" data-translate="orderTracking">
                   订单追踪&查询物流
                 </p>
 
                 <a href="https://wa.me/+8615263160627" class="btn-link" target="_blank" rel="noopener noreferrer">
                   <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
                   <ion-icon name="chevron-forward"></ion-icon>
-                  <span class="span">了解更多</span>
+                  <span class="span" data-translate="learnMore">了解更多</span>
                 </a>
 
               </div>
@@ -338,17 +341,17 @@
                 </div>
 
                 <h3 class="h3 card-title">
-                  <span class="span">3</span> 仓储服务
+                  <span class="span">3</span> <span data-translate="warehousingService">仓储服务</span>
                 </h3>
 
-                <p class="card-text">
+                <p class="card-text" data-translate="storageAndAgency">
                   储存货物&仓库代理
                 </p>
 
                 <a href="https://wa.me/+8615263160627" class="btn-link" target="_blank" rel="noopener noreferrer">
                   <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
                   <ion-icon name="chevron-forward"></ion-icon>
-                  <span class="span">了解更多</span>
+                  <span class="span" data-translate="learnMore">了解更多</span>
                 </a>
 
               </div>
@@ -373,11 +376,11 @@
           <div class="title-wrapper">
 
             <div>
-              <p class="section-subtitle">为什么选择我们</p>
+              <p class="section-subtitle" data-translate="whyChooseUs">为什么选择我们</p>
 
-              <h2 class="h2 section-title">我们的优势</h2>
+              <h2 class="h2 section-title" data-translate="ourAdvantages">我们的优势</h2>
 
-              <p class="section-text">
+              <p class="section-text" data-translate="customsRepresentative">
                 我们公司在机场设有海关代表，公司的专业人员能够解决清关过程中的困难。
               </p>
             </div>
@@ -394,9 +397,9 @@
                   <img src="./assets/images/feature-icon-1.png" width="72" height="91" alt="">
                 </div>
 
-                <h3 class="h3 card-title">我们的价格低廉</h3>
+                <h3 class="h3 card-title" data-translate="lowPrices">我们的价格低廉</h3>
 
-                <p class="card-text">
+                <p class="card-text" data-translate="customsDifficulties">
                   我们公司在机场设有海关代表。公司的专业人员能够解决清关过程中的任何困难。我们自己接收、运输和交付货物，无需外部帮助。
                 </p>
 
@@ -410,9 +413,9 @@
                   <img src="./assets/images/feature-icon-1.png" width="72" height="91" alt="">
                 </div>
 
-                <h3 class="h3 card-title">我们没有隐藏费用</h3>
+                <h3 class="h3 card-title" data-translate="noHiddenFees">我们没有隐藏费用</h3>
 
-                <p class="card-text">
+                <p class="card-text" data-translate="noHiddenCosts">
                   我们立即公布供应商或制造商的货物成本、交货、包装和货物保险的价格。我们提前宣布所有服务，并在发货时提供包含最终价格的发票；价格不会改变。
                 </p>
 
@@ -426,9 +429,9 @@
                   <img src="./assets/images/feature-icon-1.png" width="72" height="91" alt="">
                 </div>
 
-                <h3 class="h3 card-title">我们自2008年以来一直在工作</h3>
+                <h3 class="h3 card-title" data-translate="workingSince2008">我们自2008年以来一直在工作</h3>
 
-                <p class="card-text">
+                <p class="card-text" data-translate="ownTransportLines">
                   我们拥有自己的运输线路，在中国、俄罗斯、哈萨克斯坦和吉尔吉斯斯坦拥有自己的仓库和员工。
                 </p>
 
@@ -444,147 +447,7 @@
 
 
 
-      <!-- 
-        - #PROJECT
-      -->
-
-      <section class="section project" aria-label="project">
-        <div class="container">
-
-          <p class="section-subtitle">客户反馈</p>
-
-          <h2 class="h2 section-title">工作回顾</h2>
-
-          <p class="section-text">
-            
-          </p>
-
-          <ul class="project-list">
-
-            <li class="project-item">
-              <div class="project-card">
-
-                <figure class="card-banner img-holder" style="--width: 397; --height: 352;">
-                  <img src="./assets/images/project-1.png" width="397" height="352" loading="lazy"
-                    alt="Warehouse inventory" class="img-cover">
-                </figure>
-
-                <div class="card-content">
-                  <p class="card-tag">6.09.2023</p>
-
-                  <h3 class="h3">
-                    <a class="card-title">娜塔莉亚</a>
-                  </h3>
-
-                </div>
-
-              </div>
-            </li>
-
-            <li class="project-item">
-              <div class="project-card">
-
-                <figure class="card-banner img-holder" style="--width: 397; --height: 352;">
-                  <img src="./assets/images/project-1.png" width="397" height="352" loading="lazy"
-                    alt="Warehouse inventory" class="img-cover">
-                </figure>
-
-                <div class="card-content">
-                  <p class="card-tag">6.09.2023</p>
-
-                  <h3 class="h3">
-                    <a class="card-title">娜塔莉亚</a>
-                  </h3>
-
-                </div>
-
-              </div>
-            </li>
-
-            <li class="project-item">
-              <div class="project-card">
-
-                <figure class="card-banner img-holder" style="--width: 397; --height: 352;">
-                  <img src="./assets/images/project-1.png" width="397" height="352" loading="lazy"
-                    alt="Warehouse inventory" class="img-cover">
-                </figure>
-
-                <div class="card-content">
-                  <p class="card-tag">6.09.2023</p>
-
-                  <h3 class="h3">
-                    <a class="card-title">娜塔莉亚</a>
-                  </h3>
-
-                </div>
-
-              </div>
-            </li>
-
-            <li class="project-item">
-              <div class="project-card">
-
-                <figure class="card-banner img-holder" style="--width: 397; --height: 352;">
-                  <img src="./assets/images/project-1.png" width="397" height="352" loading="lazy"
-                    alt="Warehouse inventory" class="img-cover">
-                </figure>
-
-                <div class="card-content">
-                  <p class="card-tag">6.09.2023</p>
-
-                  <h3 class="h3">
-                    <a class="card-title">娜塔莉亚</a>
-                  </h3>
-
-                </div>
-
-              </div>
-            </li>
-
-            <li class="project-item">
-              <div class="project-card">
-
-                <figure class="card-banner img-holder" style="--width: 397; --height: 352;">
-                  <img src="./assets/images/project-1.png" width="397" height="352" loading="lazy"
-                    alt="Warehouse inventory" class="img-cover">
-                </figure>
-
-                <div class="card-content">
-                  <p class="card-tag">6.09.2023</p>
-
-                  <h3 class="h3">
-                    <a class="card-title">娜塔莉亚</a>
-                  </h3>
-
-                </div>
-
-              </div>
-            </li>
-
-            <li class="project-item">
-              <div class="project-card">
-
-                <figure class="card-banner img-holder" style="--width: 397; --height: 352;">
-                  <img src="./assets/images/project-1.png" width="397" height="352" loading="lazy"
-                    alt="Warehouse inventory" class="img-cover">
-                </figure>
-
-                <div class="card-content">
-                  <p class="card-tag">6.09.2023</p>
-
-                  <h3 class="h3">
-                    <a class="card-title">娜塔莉亚</a>
-                  </h3>
-
-                </div>
-
-              </div>
-            </li>
-
-          </ul>
-
-        </div>
-      </section>
+      
 
 
 
@@ -597,11 +460,11 @@
       <section class="section blog" aria-label="blog" id="blog">
         <div class="container">
 
-          <p class="section-subtitle">公司动态展示</p>
+          <p class="section-subtitle" data-translate="companyUpdates">公司动态展示</p>
 
-          <p class="section-text">
+          <p class="section-text" data-translate="officialPartner">
             我们是俄罗斯市场官方合作伙伴，为您与中国合作提供全方位服务。 从中国网站购买商品没有最低订单金额限制。 
-            中国至俄罗斯及独联体国家的散货及集装箱的货物运输9-15天内快速交货。我们也可以帮助您选择产品与厂家协商价格。
+            中国至俄罗斯及独联体国家的散货及集箱的货物运输9-15天内快速交货。我们也可以帮助您选择产品与厂家协商价格。
           </p>
 
           <ul class="blog-list grid-list">
